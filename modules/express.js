@@ -4,7 +4,8 @@ const app = express(); //inicializando o express com uma variável
 
 app.get("/home", (req, res) => {
   res.contentType("application/html");
-  res.status(200).send("<h1>Hello Hello Hello</h1>");
+  const a = "ANGOLA";
+  res.status(200).json("<h1>Hello Hello Hello</h1>");
 });
 
 app.get("/users", (req, res) => {

@@ -1,4 +1,4 @@
-const http = require("http");//http é uma 
+const http = require("http");//modulo http
 
 const port = 8080;
 
@@ -6,6 +6,7 @@ const server = http.createServer((req, res) => {
   if (req.url === "/home") {
     res.writeHead(200, { "content-Type": "text/html" });
     res.end("<h1>This Page Is On </h1>");
+    
   }
   if (req.url === "/users") {
     const users = [

@@ -1,5 +1,5 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require("fs");//modulo de arquivo
+const path = require("path");//modulo de caminho
 
 //criar uma pasta
 
